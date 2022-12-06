@@ -1,7 +1,6 @@
 package readers;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -20,5 +19,9 @@ public class LineReader {
 
     public List<String> readLines(String filePath) {
         return readLinesStream(filePath).toList();
+    }
+
+    public String readFirstLine(String filePath) {
+        return readLinesStream(filePath).findFirst().orElse("");
     }
 }
