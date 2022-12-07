@@ -1,6 +1,6 @@
 package com.kozelj;
 
-import items.Communicator;
+import communicator.Communicator;
 import org.junit.Assert;
 import org.junit.Test;
 import readers.LineReader;

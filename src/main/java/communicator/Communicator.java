@@ -1,4 +1,4 @@
-package items;
+package communicator;
 
 import java.util.HashSet;
 import java.util.LinkedList;
